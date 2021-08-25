@@ -114,7 +114,7 @@
   text-align: center;
   margin-top: 10px;
   background-image: linear-gradient(to right bottom, #0f1418, #13161a, #16181b, #18191d, #1b1b1e);
-  opacity:90%;
+  /* opacity:90%; */
   color: rgb(241, 224, 224);
 }
 
