@@ -24,7 +24,7 @@
   height:max-content;
 }
 #wrapper #content-wrapper {
-  background-color: #0e0a14;
+  /* background-color: #0e0a14; */
   width: 100%;
   overflow-x: hidden;
 }
