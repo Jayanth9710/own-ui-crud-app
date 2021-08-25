@@ -21,7 +21,7 @@ function Users() {
         return (
           
           <div className="user-container">
-            <img className="avatar" src={obj.avatar}/> 
+            <img className="avatar" src={obj.avatar} alt="avatar"/> 
             <h4>Username: {obj.userName}</h4>
             <h4>Position: {obj.position}</h4>
             <div className="buttons">
