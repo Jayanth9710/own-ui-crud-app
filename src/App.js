@@ -23,13 +23,13 @@ function App() {
       <div className="create-userbtn">
         <Link
           to="/create-user"
-          className="d-none d-sm-inline-block btn btn-sm  shadow-sm createbtn"
+          className="create btn"
         >
            Create User
         </Link>
         <Link
           to="/list-user"
-          className="d-none d-sm-inline-block btn btn-sm  shadow-sm listbtn"
+          className=" list btn"
         >
            List Users
         </Link>
