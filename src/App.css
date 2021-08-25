@@ -24,14 +24,14 @@
   height:max-content;
 }
 #wrapper #content-wrapper {
-  /* background-color: #0e0a14; */
+  background-color: #0e0a14;
   width: 100%;
   overflow-x: hidden;
 }
 
 
 .App-header {
-  /* background-color: #282c34; */
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -138,7 +138,7 @@
   
 }
 @media (min-width:1200px) and (max-width:1600px){
-  .container-fluid{
+  .container-fluid,.heading{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:25px;
@@ -146,7 +146,7 @@
 }
 
 @media (min-width:900px) and (max-width:1200px){
-  .container-fluid{
+  .container-fluid,.heading{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap:20px;
@@ -154,7 +154,7 @@
 }
 
 @media (min-width: 300px) and (max-width: 900px){
-.container-fluid , .user-container {
+.container-fluid , .user-container,.heading {
     display: grid;
     grid-template-columns: 1fr;
     gap:10px;
@@ -165,7 +165,7 @@
 }
 
 @media (min-width:1600px) and (max-width: 2000px) {
-  .container-fluid{
+  .container-fluid,.heading{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:15px;
@@ -174,7 +174,7 @@
 }
 
 @media (min-width:2001px) {
-  .container-fluid{
+  .container-fluid,.heading{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap:12px;
