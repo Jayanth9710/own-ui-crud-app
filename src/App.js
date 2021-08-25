@@ -17,7 +17,7 @@ function App() {
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <div className="Header">
-          <Link to="/user" className="h3 mb-2 heading">Dashboard.</Link></div>
+          <Link to="/" className="h3 mb-2 heading">Dashboard.</Link></div>
       
       
       <div className="create-userbtn">
@@ -33,6 +33,7 @@ function App() {
         >
            List Users
         </Link>
+        
 
         </div>
         
@@ -42,7 +43,7 @@ function App() {
 
                 <UserProvider>
                   <Route path="/list-user" component={ListUsers} exact={true}/>
-                  <Route path="/user" component={Users} exact={true} />
+                  <Route path="/" component={Users} exact={true} />
                   <Route
                     path="/create-user"
                     component={CreateUser}
